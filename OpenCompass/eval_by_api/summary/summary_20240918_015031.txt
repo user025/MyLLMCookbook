@@ -1,0 +1,191 @@
+20240918_015031
+tabulate format
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+dataset                                 version    metric         mode    internlm2
+--------------------------------------  ---------  -------------  ------  -----------
+--------- 考试 Exam ---------           -          -              -       -
+ceval                                   -          naive_average  gen     40.30
+agieval                                 -          -              -       -
+mmlu                                    -          -              -       -
+GaokaoBench                             -          -              -       -
+ARC-c                                   -          -              -       -
+--------- 语言 Language ---------       -          -              -       -
+WiC                                     -          -              -       -
+summedits                               -          -              -       -
+chid-dev                                -          -              -       -
+afqmc-dev                               -          -              -       -
+bustm-dev                               -          -              -       -
+cluewsc-dev                             -          -              -       -
+WSC                                     -          -              -       -
+winogrande                              -          -              -       -
+flores_100                              -          -              -       -
+--------- 知识 Knowledge ---------      -          -              -       -
+BoolQ                                   -          -              -       -
+commonsense_qa                          -          -              -       -
+nq                                      -          -              -       -
+triviaqa                                -          -              -       -
+--------- 推理 Reasoning ---------      -          -              -       -
+cmnli                                   -          -              -       -
+ocnli                                   -          -              -       -
+ocnli_fc-dev                            -          -              -       -
+AX_b                                    -          -              -       -
+AX_g                                    -          -              -       -
+CB                                      -          -              -       -
+RTE                                     -          -              -       -
+story_cloze                             -          -              -       -
+COPA                                    -          -              -       -
+ReCoRD                                  -          -              -       -
+hellaswag                               -          -              -       -
+piqa                                    -          -              -       -
+siqa                                    -          -              -       -
+strategyqa                              -          -              -       -
+math                                    -          -              -       -
+gsm8k                                   -          -              -       -
+TheoremQA                               -          -              -       -
+openai_humaneval                        -          -              -       -
+mbpp                                    -          -              -       -
+bbh                                     -          -              -       -
+--------- 理解 Understanding ---------  -          -              -       -
+C3                                      -          -              -       -
+CMRC_dev                                -          -              -       -
+DRCD_dev                                -          -              -       -
+MultiRC                                 -          -              -       -
+race-middle                             -          -              -       -
+race-high                               -          -              -       -
+openbookqa_fact                         -          -              -       -
+csl_dev                                 -          -              -       -
+lcsts                                   -          -              -       -
+Xsum                                    -          -              -       -
+eprstmt-dev                             -          -              -       -
+lambada                                 -          -              -       -
+tnews-dev                               -          -              -       -
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+-------------------------------------------------------------------------------------------------------------------------------- THIS IS A DIVIDER --------------------------------------------------------------------------------------------------------------------------------
+
+csv format
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+dataset,version,metric,mode,internlm2
+--------- 考试 Exam ---------,-,-,-,-
+ceval,-,naive_average,gen,40.30
+agieval,-,-,-,-
+mmlu,-,-,-,-
+GaokaoBench,-,-,-,-
+ARC-c,-,-,-,-
+--------- 语言 Language ---------,-,-,-,-
+WiC,-,-,-,-
+summedits,-,-,-,-
+chid-dev,-,-,-,-
+afqmc-dev,-,-,-,-
+bustm-dev,-,-,-,-
+cluewsc-dev,-,-,-,-
+WSC,-,-,-,-
+winogrande,-,-,-,-
+flores_100,-,-,-,-
+--------- 知识 Knowledge ---------,-,-,-,-
+BoolQ,-,-,-,-
+commonsense_qa,-,-,-,-
+nq,-,-,-,-
+triviaqa,-,-,-,-
+--------- 推理 Reasoning ---------,-,-,-,-
+cmnli,-,-,-,-
+ocnli,-,-,-,-
+ocnli_fc-dev,-,-,-,-
+AX_b,-,-,-,-
+AX_g,-,-,-,-
+CB,-,-,-,-
+RTE,-,-,-,-
+story_cloze,-,-,-,-
+COPA,-,-,-,-
+ReCoRD,-,-,-,-
+hellaswag,-,-,-,-
+piqa,-,-,-,-
+siqa,-,-,-,-
+strategyqa,-,-,-,-
+math,-,-,-,-
+gsm8k,-,-,-,-
+TheoremQA,-,-,-,-
+openai_humaneval,-,-,-,-
+mbpp,-,-,-,-
+bbh,-,-,-,-
+--------- 理解 Understanding ---------,-,-,-,-
+C3,-,-,-,-
+CMRC_dev,-,-,-,-
+DRCD_dev,-,-,-,-
+MultiRC,-,-,-,-
+race-middle,-,-,-,-
+race-high,-,-,-,-
+openbookqa_fact,-,-,-,-
+csl_dev,-,-,-,-
+lcsts,-,-,-,-
+Xsum,-,-,-,-
+eprstmt-dev,-,-,-,-
+lambada,-,-,-,-
+tnews-dev,-,-,-,-
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+-------------------------------------------------------------------------------------------------------------------------------- THIS IS A DIVIDER --------------------------------------------------------------------------------------------------------------------------------
+
+raw format
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------------------------
+Model: internlm2
+ceval-computer_network: {'accuracy': 21.052631578947366}
+ceval-operating_system: {'accuracy': 15.789473684210526}
+ceval-computer_architecture: {'accuracy': 14.285714285714285}
+ceval-college_programming: {'accuracy': 16.216216216216218}
+ceval-college_physics: {'accuracy': 15.789473684210526}
+ceval-college_chemistry: {'accuracy': 20.833333333333336}
+ceval-advanced_mathematics: {'accuracy': 15.789473684210526}
+ceval-probability_and_statistics: {'accuracy': 22.22222222222222}
+ceval-discrete_mathematics: {'accuracy': 25.0}
+ceval-electrical_engineer: {'accuracy': 21.62162162162162}
+ceval-metrology_engineer: {'accuracy': 45.83333333333333}
+ceval-high_school_mathematics: {'accuracy': 22.22222222222222}
+ceval-high_school_physics: {'accuracy': 47.368421052631575}
+ceval-high_school_chemistry: {'accuracy': 42.10526315789473}
+ceval-high_school_biology: {'accuracy': 42.10526315789473}
+ceval-middle_school_mathematics: {'accuracy': 26.31578947368421}
+ceval-middle_school_biology: {'accuracy': 80.95238095238095}
+ceval-middle_school_physics: {'accuracy': 47.368421052631575}
+ceval-middle_school_chemistry: {'accuracy': 65.0}
+ceval-veterinary_medicine: {'accuracy': 47.82608695652174}
+ceval-college_economics: {'accuracy': 25.454545454545453}
+ceval-business_administration: {'accuracy': 30.303030303030305}
+ceval-marxism: {'accuracy': 73.68421052631578}
+ceval-mao_zedong_thought: {'accuracy': 58.333333333333336}
+ceval-education_science: {'accuracy': 41.37931034482759}
+ceval-teacher_qualification: {'accuracy': 56.81818181818182}
+ceval-high_school_politics: {'accuracy': 36.84210526315789}
+ceval-high_school_geography: {'accuracy': 42.10526315789473}
+ceval-middle_school_politics: {'accuracy': 71.42857142857143}
+ceval-middle_school_geography: {'accuracy': 83.33333333333334}
+ceval-modern_chinese_history: {'accuracy': 47.82608695652174}
+ceval-ideological_and_moral_cultivation: {'accuracy': 68.42105263157895}
+ceval-logic: {'accuracy': 4.545454545454546}
+ceval-law: {'accuracy': 25.0}
+ceval-chinese_language_and_literature: {'accuracy': 39.130434782608695}
+ceval-art_studies: {'accuracy': 39.39393939393939}
+ceval-professional_tour_guide: {'accuracy': 51.724137931034484}
+ceval-legal_professional: {'accuracy': 21.73913043478261}
+ceval-high_school_chinese: {'accuracy': 31.57894736842105}
+ceval-high_school_history: {'accuracy': 45.0}
+ceval-middle_school_history: {'accuracy': 77.27272727272727}
+ceval-civil_servant: {'accuracy': 42.5531914893617}
+ceval-sports_science: {'accuracy': 42.10526315789473}
+ceval-plant_protection: {'accuracy': 45.45454545454545}
+ceval-basic_medicine: {'accuracy': 63.1578947368421}
+ceval-clinical_medicine: {'accuracy': 31.818181818181817}
+ceval-urban_and_rural_planner: {'accuracy': 34.78260869565217}
+ceval-accountant: {'accuracy': 42.857142857142854}
+ceval-fire_engineer: {'accuracy': 29.03225806451613}
+ceval-environmental_impact_assessment_engineer: {'accuracy': 45.16129032258064}
+ceval-tax_accountant: {'accuracy': 44.89795918367347}
+ceval-physician: {'accuracy': 46.93877551020408}
+ceval-stem: {'naive_average': 32.78486708349409}
+ceval-social-science: {'naive_average': 51.96818849631917}
+ceval-humanities: {'naive_average': 41.05744648336988}
+ceval-other: {'naive_average': 42.61446466278139}
+ceval-hard: {'naive_average': 26.416301169590646}
+ceval: {'naive_average': 40.303274023860325}
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
